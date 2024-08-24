@@ -1,0 +1,28 @@
+.carousel .thumb img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.carousel .slide img {
+    
+    max-height: 400px;  
+    width:100%;
+}
+.carousel .slide {
+    background: none;
+}
+
+.carousel-status{
+    background: none;
+    
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto;
+}
+
+.carousel-status{
+    display: block;
+}

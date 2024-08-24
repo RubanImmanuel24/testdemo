@@ -1,0 +1,63 @@
+.CardFooter{
+    border: 0px solid rgba(0,0,0,) !important;
+    margin: 0px;
+    background-color: #a9a9a9 !important;
+  }
+
+.footer-div-horizondal-line {
+    background-color:#ffffff !important;
+  }
+  .footer-div-bgcolor {
+    background-color: #061032!important
+  }
+
+  .footer-div-bgcolor-line {
+    background-color: #536DFE!important;
+  }
+  
+  .footer-div-content-title{
+   font-weight: bold;
+  margin-bottom: 12px;
+  color: #ffffff!important;
+  }
+  
+  .footer-div-content-item{
+    color: #ffffff !important;
+      padding: 1px 0;
+      text-decoration: none;
+     font-size: smaller;
+      
+  }
+  
+  .footer-div-list{
+    list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+  }
+
+
+  .footer-font{
+    font-family: "Poppins", Sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 15px;
+    --flex-grow: 0;
+    --flex-shrink: 0; 
+  }
+
+  .footer-font-title{
+    font-family: "Poppins", Sans-serif;
+    font-weight: 100;
+    font-family: "Poppins", Sans-serif;  
+    font-weight: 600;
+    font-size: 16px; 
+  }
+  .inouttek{
+    font-family: "Playfair Display", serif
+  }
+  .footer-text-left{
+    text-align: left;
+  }
+
+  

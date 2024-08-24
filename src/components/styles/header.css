@@ -1,0 +1,125 @@
+.InOutTek-navbar-bg{
+    font-family: "Playfair Display", serif;
+    background-color: #061032 !important
+}
+.navbar-dark{
+  background-color: #061032;
+  border-color: #ffffff;
+}
+
+.font-sg{
+     font-family: 'Raleway', sans-serif;  
+    font-family: 'Space Grotesk'!important;
+    font-size: medium;
+    letter-spacing: 0.5px;
+}
+.font-header{
+    font-family: 'Roboto', sans-serif!important;
+}
+
+.dropdown-item  {
+    background-color: #ffffff;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #ffffff;
+  }
+  
+  .nav-item {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(200, 9, 9, 0.2);
+    z-index: 1;
+    
+  }
+
+  .btn-white{
+    color: rgb(255, 255, 255);
+  }
+  
+  .dropdown-menu a  {
+    color:#061032 ;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; 
+  }
+  .dropdown-item active:hover {background-color: #ffffff,
+  }
+  .dropdown:hover .dropdown-menu {
+    background-color: #ffffff;
+  }
+  .nav-link {
+    color: #ffffff
+  }
+
+  .activenav,.NavLink {
+    color: rgb(255, 255, 255);
+  }
+ .elementor-image{
+  color: #ffffff;
+  padding-left: 0cap;
+
+ }
+ .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: #ffffff;
+}
+.Devopsas_text{
+  text-align: text-start;
+}
+.inouttek{
+  padding: 10px;;
+  width: fit-content;
+}
+
+.div{
+ 
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+.inouttek{
+  color: #ffffff;
+}
+.Navbar_text{
+  font-family: "Poppins", system-ui;
+  font-weight: 100;
+  font-style: normal;
+  
+}
+a:hover {
+  color:  #ffffff;
+  text-decoration: underline;
+}
+.Navbar_text{
+  color: #ffffff;
+}
+.a {
+  color: #000000;
+  text-decoration: none;
+  background-color: transparent;
+}
+.a {
+  color: #000000;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+
