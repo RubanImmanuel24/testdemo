@@ -564,9 +564,7 @@ font-size: 1.25rem;
   overflow: hidden;
 }
 
-/* .service-text{
-  text-align: start;
-} */
+
 
 
 #myDIV {
@@ -575,5 +573,11 @@ font-size: 1.25rem;
   text-align: center;
   background-color: lightblue;
   margin-top: 20px;
+}
+
+
+.elementor-slide-button{
+  font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+  font-weight: var(--e-global-typography-accent-font-weight);
 }
 

@@ -18,24 +18,39 @@ function Home(){
             		<div className="col-14 mx-auto">
        					 <div className="carousel-wrapper">
           					  	<Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false} >
-               						 <div href="/home">
-                						<img src="../Image/Carousel/DevopsasServicesdoc.jpg"   />
+									
+									<NavLink to="/Services" >
+									 <div href="/home">
+                						<img src="../Image/Carousel/DevopsasServicesdoc.jpg"  /> 
+										{/* <img src="../Image/Carousel/DevopsasServicesdocnew.jpg"  /> 		 */}
                						 </div>
-                					 <div>
+									</NavLink>
+									<NavLink to="/24x7-sre" >
+                					 <div  >
                   						  <img src="../Image/Carousel/sresilde.jpg" />
                 					</div>
+									</NavLink>
+									<NavLink to="/managed-services" >
                						 <div>
-                   						  <img src="../Image/Carousel/managedservices.jpg" />
+                   			
+											 <img src="../Image/Carousel/managedservicesnew.jpg" />
                 					</div>
+									</NavLink>
+									<NavLink to="/manpower-and-technology-consulting" >
                 					<div>
                   						  <img src="../Image/Carousel/manpowerslide.jpg" />
                						 </div>
+										</NavLink>
+										<NavLink to="/software-testing" >
 										<div>
-                   							 <img src="../Image/Carousel/softwaretestingslide.jpg" />
+                   							 <img src="../Image/Carousel/sofwaretestingslide.jpg" />
                							 </div>
+											</NavLink>
+											<NavLink to="/cloud-security" >
                 					<div>
                    						 <img src="../Image/Carousel/cloudslide.jpg" />
                 					</div>
+									</NavLink>
            					 </Carousel>
        					 </div>
         			</div>
@@ -44,10 +59,39 @@ function Home(){
 
 
 
+				{/* <p>
+  <a class="btn btn-primary" data-bs-toggle="collapse.show" data-bs-target="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+  <button class="btn btn-primary" type="button" data-bs-toggle="collapse.show" data-bs-target="#multiCollapseExample2"  aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample3">Toggle both elements</button>
+</p>
+<div class="row">
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample1">
+    
+        Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+      
+    </div>
+  </div>
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample2">
+      <div class="card card-body">
+        Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample3">
+      <div class="card card-body">
+        Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default .
+      </div>
+    </div>
+  </div>
+</div> */}
+
 
 				
 
-		 				<div className="row AbutUs">
+		 				{/* <div className="row AbutUs">
   							<button className="btnbtn-default border-inline-start-color abouttext" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" >
  								 About Us
  							 </button>
@@ -84,7 +128,7 @@ function Home(){
   												<p>At InOutTek, we measure our success by yours. Our vision is to be at the forefront of innovation, enabling you to thrive in a constantly evolving business landscape. With us, your aspirations become reality, and your challenges turn into opportunities.</p>
  											 </div>
 										</div>
-									</div>
+									</div> */}
 
 
 									<div className='homeAboutIntroContentTitle bg-light  '>
