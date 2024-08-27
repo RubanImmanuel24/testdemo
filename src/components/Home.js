@@ -91,7 +91,7 @@ function Home(){
 
 				
 
-		 				{/* <div className="row AbutUs">
+		 				<div className="row AbutUs">
   							<button className="btnbtn-default border-inline-start-color abouttext" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" >
  								 About Us
  							 </button>
@@ -128,7 +128,7 @@ function Home(){
   												<p>At InOutTek, we measure our success by yours. Our vision is to be at the forefront of innovation, enabling you to thrive in a constantly evolving business landscape. With us, your aspirations become reality, and your challenges turn into opportunities.</p>
  											 </div>
 										</div>
-									</div> */}
+									</div>
 
 
 									<div className='homeAboutIntroContentTitle bg-light  '>
