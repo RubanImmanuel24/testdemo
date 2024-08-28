@@ -22,7 +22,7 @@ function Home(){
 									<NavLink to="/Services" >
 									 <div href="/home">
                 						<img src="../Image/Carousel/DevopsasServicesdoc.jpg"  /> 
-										{/* <img src="../Image/Carousel/DevopsasServicesdocnew.jpg"  /> 		 */}
+
                						 </div>
 									</NavLink>
 									<NavLink to="/24x7-sre" >
