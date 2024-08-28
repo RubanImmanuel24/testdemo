@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import {Routes,Route} from 'react-router-dom';
 import React from 'react';
@@ -10,8 +9,8 @@ import SoftwareTesting from './components/SoftwareTesting';
 import Navbarheader from './components/Navbarheader';
 import Footer from './components/Footer';
 import About from './components/About';
-import SRE from './components/SRE';
 import CarouselComponent from './components/CarouselComponent';
+import SRE from './components/SRE';
 import Contact from './components/Contact';
 import CloudSecurity from './components/CloudSecurity';
 function App() {

@@ -1,10 +1,5 @@
 import React, { useEffect } from 'react';
 import './styles/home.css'
-import { NavLink } from 'react-router-dom';
-import {
-    Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Button, CardFooter
-} from 'reactstrap';
 
 function SoftwareTesting() {
 

@@ -70,7 +70,7 @@ import './styles/about.css';
 								<br></br>			
 							<div className="col-md ">
 								<a href="About">
-									<img src="../Image/About/whychoose.jpg" className="img-thumbnail"  width="500px;"></img>
+									<img src="../Image/About/whychoose.jpg" className="img-thumbnail" width="500px;"></img>
 								</a>
 							</div>
 						</div>

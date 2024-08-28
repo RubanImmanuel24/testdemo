@@ -1,9 +1,9 @@
 import React,  { useEffect }  from 'react';
-import {NavLink } from 'react-router-dom';
+
  import './styles/contact.css';
  import {
-    Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Button,CardFooter
+    Card, CardText, CardBody,
+    CardTitle, 
   } from 'reactstrap';
 
  function Contact() {
