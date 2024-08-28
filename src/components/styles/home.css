@@ -253,7 +253,7 @@ div.desc {
     font-family: 'Poppins', sans-serif;
 }
 .homeIntroAboutTitle{
-  font-size: 2.82rem;
+  font-size: 2rem;
     color: #000;
     font-family: 'Poppins', sans-serif;
     text-align: start;
@@ -579,5 +579,19 @@ font-size: 1.25rem;
 .elementor-slide-button{
   font-family: var(--e-global-typography-accent-font-family), Sans-serif;
   font-weight: var(--e-global-typography-accent-font-weight);
+}
+
+.collapse {
+  &:not(.show) {
+    display: none;
+  }
+}
+
+.card-header {
+  padding: .10rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, .03);
+  border-bottom: 1px solid rgba(0, 0, 0, .125);
+  text-align: left;
 }
 

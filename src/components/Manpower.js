@@ -18,7 +18,7 @@ function Manpower(){
 						<div className="row bg-lightBrown ">
 								<div className="col-md ">
 									<div className='d-flex'>
-										<p className='homeAboutIntroContent'><h3>Manpower and Technology Consulting</h3></p>
+										<p className='homeAboutIntroContent'><h2>Manpower and Technology Consulting</h2></p>
 									</div>
 											<div className='d-flex'>
 												<p className='homeAboutIntroContent'>
@@ -30,37 +30,26 @@ function Manpower(){
 								<br></br>
 									
 										<div className="col-md ">
-											<NavLink to="/manpower-and-technology-consulting" >
+											
 													<img src="../Image/Services/manpower.jpg" className="img-fluid " width="800px; "></img>
-											</NavLink>
+										
 										</div>
 						</div>
                         
 						 			<div className="d-flex">
-    									<div className="col-6"><h3 className='devopscontent'>Key Features</h3>
+    									<div className="col"><h3 className='devopscontent'>Our Manpower and Technology Consulting Services
+										</h3>
    											 <div className='homeAboutIntroContent'>
 												    <ol>
-													<li>Holistic Approach: Combines expertise in human resources and technology to deliver comprehensive solutions.</li>
-													<li>Tailored Solutions: Develops strategies and solutions specific to the organization's unique needs and goals.</li>
-													<li>Specialized Knowledge: Provides access to experts in both human resources and technology.</li>
-													<li>Systems Assessment: Evaluates current technology and suggests improvements or new implementations.</li>
-													<li>Recruitment: Assists with attracting and hiring the right talent for critical roles.</li>
-													<li>Transition Planning: Develops strategies to manage changes related to technology or organizational structure.</li>
+													<li>24/7 Monitoring and Support: Continuous monitoring of your systems with round-the-clock support to address any issues before they impact your operations.</li>
+								<li>Proactive Maintenance: Regular updates, patch management, and performance optimization to ensure your IT environment is secure and running efficiently.</li>
+								<li>Cloud Management: Expert management of your cloud resources, including provisioning, scaling, and cost optimization.</li>
+								<li>Security and Compliance: Implementing robust security measures and ensuring compliance with industry standards to protect your data and infrastructure.</li>
+								<li>Incident Response and Recovery: Rapid response to incidents and effective disaster recovery solutions to minimize downtime and data loss.</li>
 													</ol>
    											 </div>
     									</div>
-    									<div className="col-6"><h3 className='devopscontent'>Benefits</h3>
-       										 <div className='homeAboutIntroContent'>
-												<ul>
-													<li> Streamlined Operations: Optimizes processes and workflows through better technology and workforce management.	  </li>
-													<li> Skilled Workforce: Develops a more capable and motivated workforce through targeted training and development.  </li>
-													<li> Resource Optimization: Reduces operational costs by improving resource allocation and minimizing waste. </li>
-													<li> Data Insights: Provides actionable insights through data analytics, supporting informed decision-making.</li>
-													<li> Innovation: Keeps the organization at the forefront of industry trends and technological advancements.</li>
-													<li> Adaptability: Enables the organization to scale operations up or down based on business needs and market conditions.</li>
-												</ul>
-        									</div>                         
-										</div>
+    							
 									</div>
 			</div>
         </>

@@ -3,8 +3,8 @@ import React,  { useEffect }  from 'react';
 import {NavLink } from 'react-router-dom';
 import './styles/home.css'
 import {
-    Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Button,CardFooter
+    Card, CardText, CardBody,
+    CardTitle
   } from 'reactstrap';
   import { Carousel } from 'react-responsive-carousel';
 
@@ -56,79 +56,42 @@ function Home(){
         			</div>
         		</div>
 
+	
 
 
-
-				{/* <p>
-  <a class="btn btn-primary" data-bs-toggle="collapse.show" data-bs-target="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
-  <button class="btn btn-primary" type="button" data-bs-toggle="collapse.show" data-bs-target="#multiCollapseExample2"  aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
-  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample3">Toggle both elements</button>
-</p>
-<div class="row">
-  <div class="col">
-    <div class="collapse multi-collapse" id="multiCollapseExample1">
+  
+  						<div id="accordion">
+      						<div className="card-header">
+        					<p className="btn abouttext " data-bs-toggle="collapse" href="#collapseOne">
+								About Us 
+        					</p> |
+							<p className="collapsed btn abouttext" data-bs-toggle="collapse" href="#collapseTwo">
+       																 Why Choose Us?
+      															</p>
+					 </div>
+      							<div id="collapseOne" className="collapse show abouttext1" data-bs-parent="#accordion">
+       									 <div className="card-body">
+											InOutTek Solutions. We specialize in delivering tailored software development, IT consulting, and cloud solutions designed to meet the unique needs of our clients. With a team of experienced professionals, we are committed to excellence in every project, ensuring that our clients achieve their goals through cutting-edge technology and strategic insights.
+       									 </div>
+     							 </div>
+													
+      											<div id="collapseTwo" className="collapse abouttext1" data-bs-parent="#accordion">
+       												 <div className="card-body">
+       														 <ul>
+										     			 			<li> We harness the latest technologies and development practices to build scalable, high-performance software that meets today’s demands and anticipates future needs.</li>
+											  						<li>Our agile approach ensures flexibility and responsiveness throughout the development process, allowing us to adapt quickly to changes and deliver iterative improvements.</li>
+											  				        <li>From initial concept to deployment and ongoing support, we provide comprehensive services that cover every aspect of software development, ensuring a seamless experience.</li>
+																	  <li>We adhere to the highest standards of quality assurance, ensuring that our software is reliable, secure, and performs optimally in real-world scenarios.</li>
+													 			</ul>
+       										 </div>
+      </div>
     
-        Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
-      
+   
+     
     </div>
-  </div>
-  <div class="col">
-    <div class="collapse multi-collapse" id="multiCollapseExample2">
-      <div class="card card-body">
-        Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="collapse multi-collapse" id="multiCollapseExample3">
-      <div class="card card-body">
-        Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default .
-      </div>
-    </div>
-  </div>
-</div> */}
+ 
 
 
-				
-
-		 				<div className="row AbutUs">
-  							<button className="btnbtn-default border-inline-start-color abouttext" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" >
- 								 About Us
- 							 </button>
- 								 	<button className="btnbtn-default border-inline-start-color abouttext" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1"   aria-expanded="false" aria-controls="collapseExample" >
-  										Why Choose Us?
-  									</button>
-  										<button type="button" className="btnbtn-default border-inline-start-color abouttext" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
- 											 Your Success, Our Mission
- 										 </button>
-						</div>
-								<div className="collapse" id="collapseExample">
-  									<div className="row container col-12">
-										<div className='flex aboutcontent abouttext1'>
-         									<p> With a comprehensive portfolio of services, we serve a diverse global client base. From pioneering “Build, Own, Operate, and Transfer” (BOOT) solutions to delivering innovative “DevOps as a Service,” our offerings are designed to propel your business forward.</p> 
-  											<h5 className="aboutcontent">Global Reach, Local Excellence</h5>
- 											 <p>We understand that your success knows no boundaries, and neither does our dedication. With a client base spanning the globe, we bring tailor-made solutions to businesses worldwide. Our promise is to provide the same level of excellence and innovation, no matter where your operations are based.</p>
-  										</div>
-  									</div>
-								</div>
-								<div className="collapse" id="collapseExample1">
-  									<div className="row container col-12">
-  										<div className='flex aboutcontent abouttext1'>
-										  <ul>
-										      <li> Experience and Expertise: With years of experience and a team of industry experts, we bring valuable insights and cutting-edge solutions to your projects.</li>
-											  <li>Reliability: Our “24×7 SRE Operations” and robust “Cloud Security Engineering” ensure that your operations run smoothly, securely, and without interruption.</li>
-											  <li>Commitment to Excellence: We’re not just a service provider; we’re your partner in growth. Our “Managed Services” and “Manpower and Technology Consulting” empower your business to reach new height.</li>
-										 </ul>
-  										</div>
-									</div>
-								</div>
-									<div className="collapse" id="collapseExample2">
-  										<div className="row container col-12">
-  											<div className='flex aboutcontent abouttext1'>
-  												<p>At InOutTek, we measure our success by yours. Our vision is to be at the forefront of innovation, enabling you to thrive in a constantly evolving business landscape. With us, your aspirations become reality, and your challenges turn into opportunities.</p>
- 											 </div>
-										</div>
-									</div>
 
 
 									<div className='homeAboutIntroContentTitle bg-light  '>
@@ -144,7 +107,7 @@ function Home(){
 																								<img src="../Image/Home/devopsservices.jpg" className="card-img-top" alt="..." width="200" height="250"></img>   
 																							</NavLink>
 																						<CardBody>
-																							<CardText className="cardFontFamily" > DevOps emphasizes continuous integration, continuous delivery (CI/CD), and the use of tools and practices that facilitate automation, monitoring, and collaboration. </CardText>
+																							<CardText className="cardFontFamily" > At InOutTek Solutions, our DevOps as a Service (DaaS) provides a streamlined approach to managing your development and operations needs. </CardText>
 																						</CardBody>
 																			</Card>
 																		</div>
@@ -155,7 +118,7 @@ function Home(){
 																							<img src="../Image/Services/SRE.jpg" className="card-img-top" alt="..." width="200" height="250"></img>   
 																						</NavLink>
 																					<CardBody>
-									  				 									<CardText className="cardFontFamily">  Our Site Reliability Engineering (SRE) Operations service is designed to ensure the reliability, scalability, and performance of your critical systems. </CardText>
+									  				 									<CardText className="cardFontFamily">  At InOutTek Solutions, our Site Reliability Engineering (SRE) services ensure that your applications and infrastructure are reliable, scalable, and performant. </CardText>
 								    												</CardBody>
 									
 								    											</Card>
@@ -167,7 +130,7 @@ function Home(){
 																								<img src="../Image/Home/Managed Services.jpg" className="card-img-top" alt="..." width="200" height="250"></img> 
 																							</NavLink>
 																						<CardBody>
-																							<CardText className="cardFontFamily"> Managed Services refer to the practice of outsourcing certain business operations or functions to a third-party service provider. </CardText>
+																							<CardText className="cardFontFamily">Our Managed Services provide comprehensive, proactive support for your IT infrastructure, allowing you to focus on your core business while we handle the complexities of technology management. </CardText>
 								    													</CardBody>
 																					</Card>
 																				</div>
@@ -178,7 +141,7 @@ function Home(){
 																									<img src="../Image/Services/manpower.jpg" className="card-img-top" alt="..." width="200" height="250"></img>   
 																								</NavLink>
 																									<CardBody>
-																										<CardText className="cardFontFamily"> Manpower and Technology Consulting is a specialized service aimed at optimizing an organization’s human resources and technological infrastructure.	</CardText>
+																										<CardText className="cardFontFamily"> Our Technology Consulting services are designed to help you harness the full potential of technology to drive business success.	</CardText>
 								    																</CardBody>
 																							</Card>
 																					</div>
@@ -201,7 +164,7 @@ function Home(){
 																													</NavLink>
 																													<CardBody>
 																														<CardText className="cardFontFamily"> 
-																																Cloud security engineering is a specialized field focused on protecting data, applications, and infrastructure in cloud environments.</CardText>
+																														Our Cloud Security Engineering services are designed to protect your cloud infrastructure from threats and ensure the integrity of your data.</CardText>
 								    																				</CardBody>
 																											</Card>
 																										</div>
